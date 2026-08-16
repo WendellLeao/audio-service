@@ -1,0 +1,23 @@
+{
+  "name": "com.wendellleao.audioservice",
+  "version": "1.0.0",
+  "displayName": "Audio Service",
+  "description": "Pooled 3D sound-playing service for Unity projects.",
+  "unity": "6000.3",
+  "license": "MIT",
+  "author": {
+    "name": "Wendell Leão",
+    "email": "leaowendell@outlook.com",
+    "url": "https://github.com/WendellLeao"
+  },
+  "keywords": [
+    "audio",
+    "sound",
+    "sfx"
+  ],
+  "dependencies": {
+    "com.wendellleao.servicelocator": "https://github.com/WendellLeao/service-locator.git",
+    "com.wendellleao.poolingservice": "https://github.com/WendellLeao/pooling-service.git",
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+  }
+}

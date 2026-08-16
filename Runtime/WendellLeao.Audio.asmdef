@@ -1,0 +1,18 @@
+{
+    "name": "WendellLeao.Audio",
+    "rootNamespace": "",
+    "references": [
+        "WendellLeao.ServiceLocator",
+        "WendellLeao.Pooling",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
