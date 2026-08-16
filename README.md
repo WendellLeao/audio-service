@@ -2,6 +2,14 @@
 
 Pooled 3D sound-playing service for Unity projects.
 
+## Requirements
+
+Add these dependencies **first**, before installing this package. The Unity Package Manager does not resolve git-URL dependencies automatically, so skipping any of them will throw an exception at runtime:
+
+- [WendellLeao.ServiceLocator](https://github.com/WendellLeao/service-locator.git)
+- [WendellLeao.Pooling](https://github.com/WendellLeao/pooling-service.git)
+- [UniTask](https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask)
+
 ## Installation
 
 Add the package via the Unity Package Manager using a git URL:
@@ -11,8 +19,6 @@ https://github.com/WendellLeao/audio-service.git
 ```
 
 To pin a specific version, append `#v1.0.0` (or any tag) to the URL.
-
-Depends on [WendellLeao.ServiceLocator](https://github.com/WendellLeao/service-locator), [WendellLeao.Pooling](https://github.com/WendellLeao/pooling-service) and [UniTask](https://github.com/Cysharp/UniTask).
 
 ## Usage
 
